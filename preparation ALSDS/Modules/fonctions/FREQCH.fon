@@ -1,0 +1,18 @@
+function FREQCH(N,CH:integer): Integer;	
+
+//------------------------------------------------------------
+//donner le nombre d'apparition du chiffre CH dans un nombre N
+//------------------------------------------------------------
+
+var f,c:integer;
+{$i C:\??\nbpos.fon} //l'appel depend sur l'emplacement du fonction
+
+begin 
+c := 0;
+for f := 1 to nbpos(N) do
+  begin
+  if N mod 10 = CH then c:=c+1;
+  N := N div 10;
+  end;
+FREQCH := c;
+end; 

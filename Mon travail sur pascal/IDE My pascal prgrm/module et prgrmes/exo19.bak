@@ -1,0 +1,11 @@
+program exo_19;
+var a,b,c,e,f,g,h,p,i,j,l,k:longint;
+begin
+a:=0;
+b:=0;
+readln(a,b);
+for p:= e,f,g,h,i,j,k,l from 0 to 9 do a:=e*1000+f*100+g*10+h;
+b:=i*1000+j*100+l*10+k;
+c:=e*10^7+i*10^6+f*10^5+j*10^4+g*10^3+l*10^2+h*10^1+k;
+write(c);
+end.

@@ -1,0 +1,24 @@
+procedure ch_vernam(message,crypto:messcod);
+var cryy,ch:string;i,a:longint;bc:boolean;
+begin
+message.ch1:=UPCASE(message.ch1);
+message.ch2:=UPCASE(message.ch2);
+ch:= decalpha(message.decal);
+cryy:='';
+for i:=1 to length(message.ch1) do
+     begin
+     bc:=false;
+     IF CHR(pos(copy(message.ch1,i,1),ch)>65
+     and chr(pos(copy(message.ch1,i,1),ch)<32 then;
+     begin
+     cryy:=concat(cryy,' ');
+     bc:=true;
+     end
+     else
+     a:=(pos(copy(message.ch1,i,1),ch)+pos(copy(message.ch2,i,1),ch)-2) mod 26;
+     cryy:= cryy+ch[a+1];
+     end;
+crypto.decal:=message.decal;
+crypto.ch1:=message.ch1;
+crypto.ch2:=cryy;
+end;

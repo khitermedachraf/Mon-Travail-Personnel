@@ -1,0 +1,38 @@
+program n_position;
+
+uses crt;
+var
+ n  : longint ;
+function n_pos(n : longint): integer ;
+var
+  c , npos : longint;
+begin
+c := 0 ;
+if n = 0 then
+  npos := 1
+else
+   repeat
+      n :=n div 10 ;
+      c:= c +1 ;
+
+   until  abs(n ) < 1 ;
+npos := c ;
+n_pos := npos ;
+readln;
+end ;
+procedure quit;
+begin
+writeln ;
+writeln ;
+writeln ( ' Tapez sur <  Enter  > To quit ');
+end;
+BEGIN
+clrscr ;
+textcolor(green);
+write(' Donner un nombre  N  : ');
+readln(n) ;
+n_pos(n);
+writeln(' nombre de position de N  est : ' , n_pos(n));
+quit;
+END.
+

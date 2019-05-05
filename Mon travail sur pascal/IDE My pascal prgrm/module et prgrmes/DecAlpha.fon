@@ -1,0 +1,19 @@
+
+
+function DecAlpha(d:longint):string;
+var i,j:longint;ch:string[26];
+
+begin
+j:=90;
+repeat
+ch:=chr(j-d)+ch;
+j:=j-1;
+until j-d=64;
+for i:=0 to d-1 do
+ begin
+ ch:=chr(90-i)+ch;
+ end;
+DecAlpha:=ch;
+end;
+
+

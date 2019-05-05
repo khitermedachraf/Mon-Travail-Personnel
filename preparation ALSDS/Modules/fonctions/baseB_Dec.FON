@@ -1,0 +1,13 @@
+function BaseB_Dec(n,b:longint):longint;
+var res,p:longint;
+{$i C:\ALGO\MODULES\PUISS.FON}
+begin
+res:=0;
+p:=0;
+repeat
+res:= (n mod 10)* PUISS(b,p)+ res;
+n:=n div 10;
+p:= p +1;
+until n=0;
+BaseB_Dec:= res;
+end;

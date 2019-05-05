@@ -1,0 +1,15 @@
+function del_mot(ch,mot:string):string;
+var nch:string;i:longint;
+//supprimer tout les mots qui ressemblent … mot dans la chaine ch//
+{$i nb_mot_ch.fon}
+{$i n_mot.fon}
+begin
+i:=1;
+nch:='';
+for i:=1 to nb_mot_ch(ch) do
+begin
+        if n_mot(ch,i)<>mot then
+                nch:=nch+n_mot(ch,i)+' ';
+end;
+del_mot:=nch;
+end;

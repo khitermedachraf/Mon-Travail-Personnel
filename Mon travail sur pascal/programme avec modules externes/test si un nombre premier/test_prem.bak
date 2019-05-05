@@ -1,0 +1,10 @@
+program test_prem;
+
+uses crt;
+
+BEGIN
+clrscr ;
+extcolor(yellow);
+readln;
+END.
+

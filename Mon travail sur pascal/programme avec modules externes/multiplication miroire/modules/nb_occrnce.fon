@@ -1,0 +1,13 @@
+function nb_occrnce( x,ch : longint) : longint ;
+var nb_occ : longint           ;
+begin
+nb_occ := 0 ;
+{*  pour calculer le nombre d appariton d  un chiffre dans un nombre x donnee *}
+repeat
+
+   if (x mod 10 = ch) then nb_occ := nb_occ + 1 ;
+   x :=  x div 10 ;
+
+until (x = 0);
+nb_occrnce := nb_occ ;
+end;

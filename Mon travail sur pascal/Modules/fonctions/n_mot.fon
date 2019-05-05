@@ -1,0 +1,28 @@
+function n_mot(ch:string;n:longint):string;
+var mot:string;cpt,i:longint;
+{$i nb_mot_ch.fon}
+begin
+mot:='';
+if nb_mot_ch(ch)>=n then
+begin
+        if ch[1]=' ' then
+        begin
+                repeat
+                        delete(ch,1,1);
+                until (ch[1]<>' ') or (ch='');
+        end;
+        if (ch[1]<>' ') and (ch<>'') then
+        begin
+                cpt:=1;
+                i:=1;
+                repeat
+                        if (ch[i]<>' ') and (cpt=n) then
+                                mot:=mot+ch[i];
+                        if ch[i]=' ' then
+                                cpt:=cpt+1;
+                i:=i+1;
+                until (cpt>n) or (i>length(ch));
+        end;
+end;
+n_mot:=mot;
+end;

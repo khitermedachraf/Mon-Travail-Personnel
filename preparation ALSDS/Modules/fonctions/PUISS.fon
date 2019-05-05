@@ -1,0 +1,11 @@
+FUNCTION PUISS (a, n: longint): longint;
+
+//R“le: Donne a … la puissance n (a^n)//
+
+var i, res: longint;
+
+BEGIN
+res := 1;
+FOR i := 1 TO n DO res := res * a;
+PUISS := res;
+END;

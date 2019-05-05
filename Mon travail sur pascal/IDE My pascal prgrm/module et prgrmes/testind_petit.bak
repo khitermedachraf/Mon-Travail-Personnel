@@ -1,0 +1,27 @@
+program test;
+type tab1=array[1..10000]of longint;
+var t:tab1; taille,x,y:longint;
+{$i c:\algo\lect1de.pro}
+
+function ind_petit(t1:tab1; n,m:longint):longint;
+(*donner le plus petit indice du tableau t1 compris entre n et m: les bornes de t1*)
+var ind,petit,i:longint;
+begin
+petit:=t1[n];
+ind:=n;
+for i:=n+1 to m do
+begin
+ if t1[i]<petit then;
+  begin
+  petit:=t1[i];
+  ind:=i;
+  end;
+end;
+ind_petit:=ind;
+end;
+
+begin
+lect1de(t,taille);
+writeln(ind_petit(t,x,y));
+readln;
+end.

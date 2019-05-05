@@ -1,0 +1,14 @@
+function convbin_dec1(x:longint):longint;
+var a,puiss,res:longint;
+begin
+puiss:=1;
+res:=0;
+while x<>0 do
+        begin
+        a:=x mod 10;
+        res:= res+ a*puiss;
+        puiss:=puiss*2;
+        x:=x div 10;
+        end;
+convbin_dec:=res;
+end ;

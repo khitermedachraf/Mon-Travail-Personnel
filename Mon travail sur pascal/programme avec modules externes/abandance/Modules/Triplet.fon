@@ -1,0 +1,19 @@
+function Triplet(n1:int64):boolean ;
+var v:boolean ;
+{$i abondant.fon}
+
+begin 
+ v:= false ;
+ if abondant(n1)=true then
+  begin
+   if abondant(n1+1)=true then
+    begin
+     if abondant(n1+2)=true then
+      begin
+      v:= true ;
+      end;
+    end ;
+  end;
+
+  Triplet:= v  ;
+end ;

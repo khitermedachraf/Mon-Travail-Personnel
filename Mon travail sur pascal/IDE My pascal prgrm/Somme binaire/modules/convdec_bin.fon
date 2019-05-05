@@ -1,0 +1,12 @@
+function convdec_bin(y:longint):longint;
+var puiss,a,res:longint;
+begin
+puiss:=1;
+res:=0;
+while y<>0 do
+        begin
+        a:=y mod 2;
+        res:= res+ a*puiss;
+        puiss:=puiss*10;
+        y:=y div 2;
+        end;

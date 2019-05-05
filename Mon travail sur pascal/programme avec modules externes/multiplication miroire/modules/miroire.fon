@@ -1,0 +1,25 @@
+function miroire( x : longint ): longint ;
+   var  npos , m , n : longint ;
+   {$i modules\NBPOS.fon}
+          {* Pour donner l' image d' un nombre  donnee  x  qui a nbpos = ( 2 ou 3 )
+                      pr exmpl (63 ---> 36) et (456   --- > 654)           *}
+   begin
+      npos := NBPOS (x) ;
+      if npos = 2 then
+         begin
+            m := x mod 10 ;
+            n := x div 10 ;
+            x:= m *  10 + n ;
+            miroire := x ;
+         end
+      else
+         begin
+           m := x div 100 ;
+           n:=  x mod 10 ;
+           x := x - m * 100 - n ;
+           x := x + m + n * 100 ;
+           miroire := x ;
+         end ;
+
+
+   end ;

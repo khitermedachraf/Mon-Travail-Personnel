@@ -1,0 +1,11 @@
+function dec_circ_ch(s:string;nb:longint):string;
+var car:char;i:longint;
+begin
+for i:=1 to nb do
+begin
+        car:=s[1];
+        delete(s,1,1);
+        s:=s+car;
+end;
+dec_circ_ch:=s;
+end;

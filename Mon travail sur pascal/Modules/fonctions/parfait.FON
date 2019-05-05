@@ -1,0 +1,9 @@
+function parfait (n:longint):boolean;
+{$i C:\ProgPas\MODULES\MOD_EXT\somdiv.FON}
+//------------------------------------
+// R“le: Donne VRAI si N est parfait
+//------------------------------------
+begin
+parfait:=false;
+if somdiv(n)=n then parfait :=true;
+end;

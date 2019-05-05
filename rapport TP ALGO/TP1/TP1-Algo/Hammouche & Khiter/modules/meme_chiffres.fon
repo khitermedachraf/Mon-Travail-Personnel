@@ -1,0 +1,20 @@
+function meme_chiffres( n : longint ) : boolean ;
+
+	 
+	// 	 La Fonction : (meme_chiffres) contiendra  vrai 
+	// 	 si un nombre est composé des mêmes chiffres ,
+	// 	        et contiendra faux sinon
+	
+
+var s , a : longint ;
+begin
+s := n mod 10 ;
+meme_chiffres := true ;
+repeat
+a := n mod 10 ;
+if ( a = s ) then meme_chiffres :=  true
+else      meme_chiffres :=  false ;
+n := n div 10 ;
+
+until (n = 0 ) or  (meme_chiffres = false ) ;
+end ;

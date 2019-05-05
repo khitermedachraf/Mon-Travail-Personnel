@@ -1,0 +1,18 @@
+function indice_petit ( T: array of longint ; b1 , b2 : longint ) : longint ;
+
+// donner l’ indice de plus petit element de tableau // 
+var
+    ind , petit , i : longint ;
+begin
+  petit := T[b1]
+  ind:= b1  ;
+  for i:= b1 +1  to b2  do
+      begin
+        if T[i] < petit  then
+           begin
+              petit := T[i] ;
+              ind:= i ;
+           end ;
+      end ;
+  indice_petit :=   ind ;
+end ;

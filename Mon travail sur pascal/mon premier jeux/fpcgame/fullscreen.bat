@@ -1,0 +1,1 @@
+@game -fullscreen -double

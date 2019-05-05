@@ -1,0 +1,23 @@
+program test;
+var x:longint;
+
+
+function Bin_dec(n:longint):longint;
+var res,p:longint;
+{$i c:\algo\puiss.fon}
+begin
+res:=0;
+p:=0;
+repeat
+res:= (n mod 10)* puiss(2,p)+ res;
+n:=n div 10;
+p:= p +1;
+until n=0;
+Bin_Dec:= res;
+end;
+
+begin
+readln(x);
+writeln(Bin_dec(x));
+readln;
+end.

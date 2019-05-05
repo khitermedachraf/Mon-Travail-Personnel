@@ -1,0 +1,10 @@
+function Taux(n:longint):real;
+var s: longint ;
+    t :real;
+    {$i SommeDiv.fon}
+
+     begin
+     s:=SommeDiv(n);
+     t:= s/n ;
+     Taux:=t;
+     end;

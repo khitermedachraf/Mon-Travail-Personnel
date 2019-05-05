@@ -1,0 +1,9 @@
+function decalage(x , y : longint): longint ;
+var  a : longint ;
+{$i modules\PUISS.fon}
+begin
+  a := x div PUISS( 10 , y -  1 )   ;
+  x := x - ( a *   PUISS( 10 , y - 1) )  ;
+  x := (x * 10) + a ;
+  decalage := x ;
+end;

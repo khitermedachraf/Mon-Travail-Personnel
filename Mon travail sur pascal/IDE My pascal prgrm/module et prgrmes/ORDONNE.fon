@@ -1,0 +1,19 @@
+
+
+function ordonne(n:longint):longint;
+var r,i,k : longint;
+
+{$i c:\algo\concat.fon}
+{$i c:\algo\freq_ch.fon}
+BEGIN
+  r:=0;
+
+  for i :=1 to 9 do
+     begin
+     if (freq_ch(n,i)) <>0 then
+         for k:=1 to freq_ch(n,i)do
+           r:=concat(r,i);
+     end;
+     ordonne:=r;
+end;
+

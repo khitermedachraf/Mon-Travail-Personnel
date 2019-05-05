@@ -1,0 +1,30 @@
+program arrays;
+
+uses crt;
+var
+numbers : array [1 .. 12] of integer ;
+heigh , low ,  x , error   :integer ;
+UI : string ;
+
+
+procedure quit ;
+begin
+writeln;
+writeln;
+write(' Press  <  Enter  >  to quit  ' );
+readln;
+end;
+BEGIN
+clrscr;
+textcolor ( green);
+for x:= 1 to 12 do
+    repeat
+      clrscr;
+      write('   enter  numbers of  the groupes   : ');
+      readln (UI);
+      val ( UI, numbers [x], error)
+
+    until error = 0 ;
+
+END.
+

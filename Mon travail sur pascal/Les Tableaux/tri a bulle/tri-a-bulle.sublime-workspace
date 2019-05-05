@@ -1,0 +1,556 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"darkblue",
+				"darkslateblue"
+			],
+			[
+				"da",
+				"darkgray"
+			],
+			[
+				"text",
+				"text-shadow"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"p",
+				"p\tTag"
+			],
+			[
+				"blue",
+				"mediumblue"
+			],
+			[
+				"yellow",
+				"yellowgreen"
+			],
+			[
+				"yello",
+				"yellow"
+			],
+			[
+				"viol",
+				"blueviolet"
+			],
+			[
+				"green",
+				"limegreen"
+			],
+			[
+				"orNGE",
+				"orangered"
+			],
+			[
+				"line",
+				"linear-gradient()"
+			],
+			[
+				"background",
+				"background\tproperty"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"box-",
+				"box-shadow\tproperty"
+			],
+			[
+				"padding",
+				"padding-left\tproperty"
+			],
+			[
+				"aut",
+				"autofocus\tAttr"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"td",
+				"td\tTag"
+			],
+			[
+				"table",
+				"table\tTag"
+			],
+			[
+				"form",
+				"form\tTag"
+			],
+			[
+				"e",
+				"e-mail"
+			],
+			[
+				"th",
+				"th\tTag"
+			],
+			[
+				"for",
+				"form\tTag"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"au",
+				"audio\tTag"
+			],
+			[
+				"he",
+				"height\tproperty"
+			],
+			[
+				"a",
+				"a\tTag"
+			],
+			[
+				"h",
+				"hr\t<hr>"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"sty",
+				"style\tAttr"
+			],
+			[
+				"styl",
+				"style"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"b",
+				"b\t<b>"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"color",
+				"color"
+			],
+			[
+				"marg",
+				"margin-left\tproperty"
+			],
+			[
+				"vio",
+				"blueviolet"
+			],
+			[
+				"backgr",
+				"background-image\tproperty"
+			],
+			[
+				"whi",
+				"floralwhite"
+			],
+			[
+				"font-s",
+				"font-style\tproperty"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"fon",
+				"font-family\tproperty"
+			],
+			[
+				"div",
+				"div\tTag"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"footer",
+				"footer"
+			],
+			[
+				"red",
+				"color-rendering\tproperty"
+			],
+			[
+				"backc",
+				"background-color\tproperty"
+			],
+			[
+				"n",
+				"normal"
+			],
+			[
+				"bacck",
+				"background-color\tproperty"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"mar",
+				"margin-left\tproperty"
+			],
+			[
+				"pa",
+				"paint-order\tproperty"
+			],
+			[
+				"re",
+				"rebeccapurple"
+			],
+			[
+				"gree",
+				"greenyellow"
+			],
+			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"br",
+				"br\tTag"
+			],
+			[
+				"i",
+				"img\timg"
+			],
+			[
+				"ht",
+				"html\thtml"
+			],
+			[
+				"u",
+				"ul\t<ul>"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: <base>"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"set ",
+				"Set Syntax: CSS3"
+			],
+			[
+				"reverse",
+				"Permute Lines: Reverse"
+			],
+			[
+				"con",
+				"Convert Case: Swap Case"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"boxy ",
+				"Boxy Theme: Configuration"
+			],
+			[
+				"mate",
+				"Material Theme: Extras"
+			],
+			[
+				"boxy",
+				"Boxy Theme: Configuration"
+			],
+			[
+				"boxyv",
+				"Boxy Theme: Activation"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"",
+				"A File Icon: Changelog"
+			],
+			[
+				"m",
+				"Material Theme: Configuration"
+			],
+			[
+				"pack",
+				"Install Package Control"
+			]
+		],
+		"width": 558.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"v",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/khith/Desktop/espace de travail/modules/lect2d.pro",
+		"/C/Users/khith/Desktop/espace de travail/modules/ecrit2d.pro",
+		"/D/Mon travail sur pascal/Modules/procedures/remplir_t2_aleat.pro",
+		"/C/Users/khith/Desktop/espace de travail/modules/matrice_transposee.pro",
+		"/C/Users/khith/Desktop/espace de travail/modules/ecrit1d.pro",
+		"/C/Users/khith/Desktop/espace de travail/modules/lect1d.pro",
+		"/C/Users/khith/Desktop/espace de travail/modules/nb_suite_tab.fon",
+		"/C/Users/khith/Desktop/espace de travail/modules/permut_a&b.pro",
+		"/C/Users/khith/Desktop/espace de travail/modules/tri_bulle.pro",
+		"/C/Users/khith/Desktop/espace de travail/modules/tri_transposition.pro",
+		"/C/Users/khith/Desktop/espace de travail/tri par transposition/modules/tri_transposition.pro",
+		"/C/Users/khith/Desktop/espace de travail/modules/ecrit1d.proc",
+		"/D/Mon travail sur pascal/espace de travail/modules/tri_selection.pro",
+		"/D/Mon travail sur pascal/espace de travail/modules/remplir_t2_aleat.pro",
+		"/D/Mon travail sur pascal/espace de travail/modules/recopy_T2_T1.pro",
+		"/D/Mon travail sur pascal/Modules/procedures/ecrit1d.proc",
+		"/D/Mon travail sur pascal/Modules/procedures/tri_selection.pro",
+		"/D/Mon travail sur pascal/Modules/modules/ecrit1d.proc",
+		"/D/Mon travail sur pascal/Modules/modules/lect1d.proc",
+		"/D/Mon travail sur pascal/Modules/procedures/lect1d.proc",
+		"/D/Mon travail sur pascal/Modules/procedures/permut_a&b.pro",
+		"/D/Mon travail sur pascal/Modules/modules/tri_selection.pro",
+		"/D/Mon travail sur JavaScript/pretty tests/Test1/styles/styles.css",
+		"/D/Mon travail sur JavaScript/pretty tests/Test1/test-javascript.html",
+		"/D/Mon travail sur JavaScript/pretty tests/Test1/test-javascript",
+		"/D/Mon travail sur JavaScript/pretty tests/Test1/the-light.js",
+		"/D/Mon travail sur html & css/first website's pages/mainpage.html",
+		"/D/Mon travail sur html & css/Formation-TC/Training-camp-1",
+		"/D/Mon travail sur html & css/first website's pages/main.css",
+		"/C/Users/khith/Desktop/ESI S1/Suites/exercices_corriges_suites_reelles.pdf",
+		"/D/Mon travail sur pascal/IDE My pascal prgrm/Somme binaire/modules/convbin_dec1.fon",
+		"/D/Mon travail sur pascal/IDE My pascal prgrm/Somme binaire/modules/convdec_bin.fon",
+		"/D/Mon travail sur pascal/IDE My pascal prgrm/Somme binaire/modules/convbin_dec.fon",
+		"/C/Users/khith/Desktop/Arch CI/IMG20181105100405.jpg",
+		"/C/Users/khith/Desktop/Fond d'ecran top/mr-robot-logo-hd-qu.jpg",
+		"/C/Users/khith/Desktop/Haviji/upload shell on wordpress site/wso.php",
+		"/C/Users/khith/Desktop/Haviji/upload shell on wordpress site/b374k.php",
+		"/C/xampp/htdocs/wordpress/wp-config.php",
+		"/C/Users/khith/Desktop/Xmapp/loggin.txt",
+		"/C/Program Files (x86)/Google/Chrome/Application/chrome.exe",
+		"/C/xampp/htdocs/wordpress/index.php",
+		"/D/Mon travail sur html & css/Second website's pages/test 1 inscription/test.html",
+		"/C/Users/khith/Downloads/nourwso.php",
+		"/C/Users/khith/Downloads/49796-nourwso.zip",
+		"/D/Mon travail sur html & css/first website's pages/test 1 inscription/test.html",
+		"/D/Mon travail sur html & css/first website's pages/test 1 inscription/test.css",
+		"/D/Mon travail sur html & css/first website's pages/test/test.html",
+		"/D/Mon travail sur html & css/first website's pages/test/test.css",
+		"/D/Mon travail sur html & css/first website's pages/images/téléchargement.png",
+		"/D/Mon travail sur html & css/first website's pages/test.html",
+		"/D/Mon travail sur html & css/first website's pages/Despacito.mp3",
+		"/D/Mon travail sur html & css/first website's pages/images/123.jpg",
+		"/D/Mon travail sur html & css/test.html",
+		"/D/Mon travail sur html & css/nature.html",
+		"/D/help/css/bootstrap.min.css",
+		"/D/help/css/bootstrap.css",
+		"/D/Mon travail sur html & css/first website's pages/nature.html",
+		"/D/Mon travail sur html & css/first website's pages/page1.html",
+		"/D/Mon travail sur html & css/first page/mainpage.html",
+		"/D/Mon travail sur html & css/first page/page1.html",
+		"/D/Mon travail sur html & css/first page/main.css",
+		"/C/Users/khith/html",
+		"/C/Users/khith/achraf",
+		"/C/Users/khith/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/khith/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/Mon travail sur html/my first web page"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 157.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 71.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "tri-a-bulle.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"untitled"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 192.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

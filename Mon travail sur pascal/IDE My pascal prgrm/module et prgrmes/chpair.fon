@@ -1,0 +1,18 @@
+
+function chpair (n:longint):longint;
+var p,res :longint;
+begin
+p:=1;
+res:=0;
+repeat;
+  if (n mod 10) mod 2=0 then
+     begin
+     res:=res+(n mod 10)*p;
+     p:=p*10;
+     end;
+   n:=n div 10;
+until n=0;
+chpair:=res;
+end;
+
+

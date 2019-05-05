@@ -1,0 +1,15 @@
+function nb_elem (T: array of longint ; taille , val : longint) : longint ;
+     //
+    //      Donner le nombre d'elementdu tableau T egaux a (val)
+   //
+var
+   i , cpt : longint ;
+
+begin
+cpt := 0 ;
+for i := 1 to taille do
+  begin
+    if T[i] = val then  cpt := cpt +1 ;
+  end ;
+  nb_elem := cpt ;
+end ;

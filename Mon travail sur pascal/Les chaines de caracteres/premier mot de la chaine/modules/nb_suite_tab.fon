@@ -1,0 +1,27 @@
+Function  nb_suite_tab( tab : array of LongInt ; taille : longint ) : longint ; 
+(*       rechercher le de suites d'ordre croissant contenues dans un tableau
+                                a une dimendion .            *)
+var 
+      cpt , i : LongInt ;
+
+Begin
+	 
+	 cpt:= 0 ; 
+	 i:= 1 ; 
+	 repeat 
+	 	
+	 	if  (tab[i]<= tab[i+1]) then   
+                begin 
+                    cpt:= cpt + 1 ; 
+                    repeat 
+                    	  i := i+1 ; 
+                    Until (tab[i] > tab[i+1]) or (i = taille)	;	
+                end;
+             i := i + 1 ;
+     until( i >= taille  ) ;
+     nb_suite_tab := cpt ; 
+	
+     	
+end ; 
+
+      

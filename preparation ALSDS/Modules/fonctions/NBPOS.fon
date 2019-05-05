@@ -1,0 +1,15 @@
+FUNCTION NBPOS (N: longint): longint;
+
+// R“le: Donne le nombre de positions de N.//
+
+var i: longint;
+
+BEGIN
+i := 1;
+WHILE (N div 10 <> 0) DO
+        BEGIN
+        i := i + 1;
+        n := n div 10;
+        END;
+NBPOS := i;
+END;

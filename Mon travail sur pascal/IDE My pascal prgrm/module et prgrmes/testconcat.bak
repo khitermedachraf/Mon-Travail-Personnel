@@ -1,0 +1,15 @@
+program test;
+var x,p:longint;
+
+function concat (a,b:longint):longint;
+{$i c:\algo\puiss.fon}
+{$i c:\algo\nb_pos.fon}
+begin
+concat:=a*puiss(10,nb_pos(b))+b
+end;
+
+BEGIN
+readln (x,p);
+writeln (concat(x,p));
+readln;
+END.

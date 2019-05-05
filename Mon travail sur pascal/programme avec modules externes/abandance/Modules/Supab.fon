@@ -1,0 +1,25 @@
+function Supab(n:longint):boolean ;
+var i,cpt: longint ;
+    f:boolean ;
+{$i Taux.fon}
+
+ begin
+  cpt:=0 ;
+  f:= true ;
+  i:=0 ;
+   repeat
+    i:= i+1 ;
+    if (i<n) and (Taux(i)>Taux(n)) then
+     begin
+     cpt:= cpt+1 ;
+     f:= false ;
+     end;
+    if (i<n) and (Taux(i)<=Taux(n)) then f:= true ;
+    if (i>n) then
+     begin
+     cpt:= cpt+1 ;
+     f:= true ;
+     end ;
+   until cpt=1 ;
+   Supab:= f ;
+  end ;

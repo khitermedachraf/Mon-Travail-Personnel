@@ -1,0 +1,17 @@
+
+
+function RAND_MIL(indicatif,x:longint):longint;
+(* fournit une adresse a partir de l'indicatif par RAND_MIL*)
+var n,np,p:longint;
+{$i c:\algo\extrch.fon}
+{$i c:\algo\nb_pos.fon}
+begin
+n:=random(indicatif);
+np:=nb_pos(n);
+if np mod 2 =1 then
+    begin
+    p:=((np-x) div 2)+1;
+    rand_mil:=extrch(n,p);
+    end
+else rand_mil:=extrch(n,2);
+end;

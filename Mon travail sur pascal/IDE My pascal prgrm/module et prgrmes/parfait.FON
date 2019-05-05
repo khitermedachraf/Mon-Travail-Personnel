@@ -1,0 +1,14 @@
+
+
+
+
+
+function parfait (n:longint):boolean;
+{$i c:\algo\somdiv.fon}
+//------------------------------------
+// R“le: Donne VRAI si N est parfait
+//------------------------------------
+begin
+parfait:=false;
+if somdiv(n)=n then parfait :=true;
+end;

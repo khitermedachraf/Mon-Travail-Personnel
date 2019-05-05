@@ -1,0 +1,23 @@
+
+function  ee(i:longint):longint;
+var e2,cpt:longint;
+{$i Modules\pair.fon}
+begin
+
+cpt:=1;
+repeat
+if pair(i)=true  then
+ begin
+  i:= i div 2;
+ end
+ else
+ begin
+ i:= i*3+1;
+ end;
+cpt:=cpt+1;
+if cpt=25 then e2:=i;
+until cpt=26;
+
+ee:=e2;
+end;
+

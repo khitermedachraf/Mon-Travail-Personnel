@@ -1,0 +1,13 @@
+function abondant(n:longint):boolean ;
+var s: longint ;
+    v: boolean ;
+
+ {$i SommeDiv.fon}
+
+ begin
+ s:= SommeDiv(n) ;
+ if S>n then v:= true
+ else v:= false ;
+ abondant:= v
+ end ;
+

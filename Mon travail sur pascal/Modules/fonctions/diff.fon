@@ -1,0 +1,15 @@
+ function diff( x,y : longint ) : boolean ;
+  var  a , i : longint ;
+  {$i modules\CONCAT.fon}
+  {$i modules\nb_occrnce.fon}
+                                      ///      Pour comparer si les chiffres qui composent les deux nombres      ///
+                                     ///    sont non nulls et aussi sont deffirents entre eux                   ///
+
+  begin
+     a := CONCAT( x,y) ;
+     diff := true ;
+     if nb_occrnce(a , 0) <> 0 then diff := false ;
+     for i:= 1 to 9 do
+        if nb_occrnce( a ,i ) > 1 then  diff := false ;
+
+  end ;

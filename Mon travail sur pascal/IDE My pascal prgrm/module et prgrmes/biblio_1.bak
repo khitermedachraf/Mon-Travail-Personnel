@@ -1,0 +1,37 @@
+UNIT biblio_1;
+
+INTERFACE
+function ext_g(n,x:longint):longint;
+function nb_pos(n:longint):longint;
+function puiss (a,n:longint):longint;
+
+
+IMPLEMENTATION
+
+function ext_g(n,x:longint):longint;
+BEGIN
+ext_g:=n div puiss(10,nb_pos(n)-x);
+END;
+
+
+function nb_pos(n:longint):longint;
+var i : longint;
+begin
+i:=1;
+while n div 10 <> 0 do
+begin
+i:=i+1;
+n:=n div 10;
+end;
+nb_pos:=i;
+end;
+
+
+function puiss (a,n:longint):longint;
+var i,res : longint;
+begin
+res:=1;
+for i:=1 to n do res:=res*a;
+puiss:=res;
+end;
+END.

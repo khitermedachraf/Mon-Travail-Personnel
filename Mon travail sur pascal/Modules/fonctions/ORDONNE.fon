@@ -1,0 +1,19 @@
+
+function ORDONNE(n:longint):longint;
+var r,i,k : longint;
+
+{$i c:\tpalgo\CONCAT.FON}
+{$i c:\tpalgo\FREQCH.FON}
+BEGIN
+  r:=0;
+
+  for i :=1 to 9 do
+     begin
+     if (FREQCH(n,i)) <>0 then
+         for k:=1 to FREQCH(n,i)do
+           r:=CONCAT(r,i);
+     end;
+     ORDONNE:=r;
+end;
+
+

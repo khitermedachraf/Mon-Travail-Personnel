@@ -1,0 +1,15 @@
+function nb_mot_ch(ch:string):longint;
+var i,cpt:longint;
+begin
+cpt:=0;
+if ch<>'' then
+begin
+        cpt:=1;
+        for i:=1 to length(ch)-1 do
+        begin
+                if (ch[i]<>' ') and (ch[i+1]=' ') then
+                        cpt:=cpt+1;
+        end;
+end;
+nb_mot_ch:=cpt;
+end;

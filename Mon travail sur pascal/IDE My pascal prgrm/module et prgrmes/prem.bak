@@ -1,0 +1,37 @@
+program test;
+var x:longint;
+
+
+function prem(N:longint):boolean;
+{*------------------------------*}
+{*Retourne TRUE si N est premier*}
+{*------------------------------*}
+var C:boolean;
+    i:longint;
+begin
+C:=true;
+if (N=0)or(N=1)then C:=false
+else
+ begin
+  if (N=2)then C:=true
+  else
+   begin
+    i:=1;
+    if N>0then
+     begin
+      repeat
+       i:=i+1;
+       if N mod i=0 then C:=false;
+      until (C=false)or(i>N div 2);
+     end
+    else C:=false;
+   end;
+ end;
+prem:=C;
+end;
+
+begin
+readln(x);
+writeln(prem(x));
+readln;
+end.

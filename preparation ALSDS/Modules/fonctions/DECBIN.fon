@@ -1,0 +1,23 @@
+
+     function DECBIN (N:longint):longint;
+
+
+     //-------------------------------------------------
+     //Role: Convetir un nombre N du d‚cimal au binaire
+     //-------------------------------------------------
+
+
+     var k,r,p :longint;
+
+     begin
+     r:=0;
+     p:=1;
+     k:=n;
+        repeat
+                r := (k mod 2)*p + r;
+                k := k div 2;
+                p := p*10;
+        until k=0;
+     DEC_BIN := r;
+     end;
+

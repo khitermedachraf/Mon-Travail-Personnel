@@ -1,0 +1,21 @@
+program decalage_gauche;
+
+uses crt;
+var n  , d , i , s , res : longint ;
+{$i modules\decalage.fon}
+BEGIN
+clrscr ;
+textcolor(yellow);
+write(' Donner une nombre N  : ' );
+readln(n) ;
+write(' Donner le nombre de decalage  : ') ;
+readln(d);
+for i := 1 to d  do
+begin
+n:= decalage(n);
+end ;
+writeln(n);
+readln;
+
+END.
+

@@ -1,0 +1,17 @@
+function conv_b1_10 ( x , b1 : longint): longint ;
+
+var a , puiss , res : longint ;
+begin
+puiss := 1 ;
+res := 0 ;
+while (x <> 0)do
+  begin
+   a:= x mod 10 ;
+   res := res +a * puiss ;
+   puiss := puiss * b1 ;
+   x:= x div 10 ;
+  end;
+conv_b1_10 := res ;
+
+
+end;

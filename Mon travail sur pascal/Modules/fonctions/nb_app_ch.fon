@@ -1,0 +1,20 @@
+function nb_app_ch ( s_ch , ch : String): LongInt; 
+var 
+        cpt , l : LongInt ;  
+        {*     *******************************************************************************
+                   Trouver le nombre d'apparition  d' une sous -chaine  (s-ch) dans une chaine   (ch)
+                  *******************************************************************************   * }
+begin 
+        cpt  := 0 ; 
+        l :=  length (s_ch) ; 
+        While pos( s_ch , ch)  <> 0 do 
+              begin 
+              	
+                    cpt:= cpt + 1 ; 
+                    Delete(  ch,Pos(s_ch,ch), l)
+                End ; 
+                nb_app_ch := cpt ; 
+	
+	
+	
+	end ;

@@ -1,0 +1,15 @@
+Function p_Ident(n:longint): boolean;
+// Donne Vrai si N est compos' de 2 parties identiques
+var p1,p2:longint;
+{$i E:\algo\modules\extr_nb.fon}
+{$i E:\algo\modules\nb_pos.fon}
+BEGIN
+if Nb_pos(N) mod 2 <> 0 then P_ident:=false
+else
+BEGIN
+p1:= Extr_nb(n,Nb_pos(n) div 2,1);
+p2:=Extr_nb(n,(Nb_pos(n) div 2),Nb_pos(n) div 2 +1);
+if p1 = p2 then P_ident:=True
+else P_ident:=false ;
+END;
+END;

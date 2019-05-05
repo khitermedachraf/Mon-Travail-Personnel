@@ -1,0 +1,16 @@
+
+
+function ext_ch(n,p:longint):longint;
+var cpt,r:longint;
+
+begin
+cpt:=0;
+repeat
+r:=n mod 10;
+n:=n div 10;
+cpt:=cpt+1;
+until cpt=p;
+ext_ch:=r;
+end;
+
+

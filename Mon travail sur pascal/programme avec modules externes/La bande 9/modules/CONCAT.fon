@@ -1,0 +1,11 @@
+function concat (a,b:longint):longint;
+(*----------------------------------*)
+(*    concatene A avec B (AB)       *)
+(*----------------------------------*)
+var res: longint;
+{$i .\nbpos.fon}
+{$i .\puiss.fon}
+begin
+res:=a* puiss(10,nbpos(b))+b;
+concat:=res;
+end;

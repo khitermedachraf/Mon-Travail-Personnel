@@ -1,0 +1,22 @@
+program test;
+USES CRT;
+var x,y,z:longint;
+
+function pliage(indicatif,x,taific:longint):longint;
+(*fournit une adresse a partir de l indicatif par pliage *)
+var a,b:longint;
+{$i c:\algo\ext_d.fon}
+{$i c:\algo\ext_g.fon}
+{$i c:\algo\preminf.fon}
+begin
+a:=ext_g(indicatif,x); //on extrait la partie a
+b:=ext_d(indicatif,x);//on extrait la partie b
+pliage:=(a+b) mod preminf(taific); //on effectue le pliage
+end;
+
+begin
+clrscr;
+readln(x,y,z);
+writeln(pliage(x,y,z));
+readln;
+end.
