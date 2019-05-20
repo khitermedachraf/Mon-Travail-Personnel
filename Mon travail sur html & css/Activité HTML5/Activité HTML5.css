@@ -1,0 +1,37 @@
+
+@font-face 
+{
+    font-family: 'ralewayextrabold_italic';
+    src: url('fonts/raleway-extrabolditalic-webfont.woff2') format('woff2'),
+         url('fonts/raleway-extrabolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+	font-family: 'ralewayextrabold_italic'; 
+ 	background-image: url("images/fond.jpeg");
+ 	background-repeat: no-repeat;
+ 	background-position: center ;
+ 	background-attachment: fixed;
+ 	 
+}
+
+
+.colorText
+{
+	color: green;
+	border: 3px red outset ; 
+	 border-radius: 10px;
+
+}
+.align
+{
+	text-align: center ; 
+	text-shadow:  20px 20px 1.5px hotpink ;
+}
+.shadow
+{
+	 text-shadow:  6px 6px 6px white ;
+}

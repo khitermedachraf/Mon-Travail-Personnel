@@ -1,0 +1,20 @@
+/* Feuille de style */
+#topsection
+{
+   display: flex;
+   flex-direction: row; 
+}
+
+p
+{
+   width : 80% ;
+   margin: auto;
+   text-align : justify ; 
+
+}
+
+li 
+{
+  list-style-type : none ; 
+}
+
