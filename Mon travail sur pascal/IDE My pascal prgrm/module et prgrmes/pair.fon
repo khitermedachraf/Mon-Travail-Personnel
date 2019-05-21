@@ -1,8 +1,0 @@
-
-
-function pair(n:longint):boolean;
-BEGIN
-pair:=false;
-if n mod 2=0 then pair:=true;
-END;
-
